@@ -1,0 +1,23 @@
+{
+    "name": "danila718/space-web-task",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniil Simonyan",
+            "email": "danila718@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Danila718\\SpaceWebTask\\": "src/"
+        }
+    }
+}
